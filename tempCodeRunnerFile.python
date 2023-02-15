@@ -1,0 +1,15 @@
+str = "helloharshvardhan"
+s1 =""
+s = set()
+
+
+
+for i in  range (0, len(str)):
+    if str[i] in s :
+        s1 = s1 + "*"
+    else :
+        s1 = s1 + str[i]
+        s.add(str[i])
+print(s1)
+
+
